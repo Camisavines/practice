@@ -1,0 +1,41 @@
+/* My basic, personal stlying choices */
+/* ---------------------------------- */
+html {
+  
+}
+
+body {
+	background: #d77a28;
+	color: #fff;
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+.container {
+	overflow: hidden;
+	/* we don't want the pseudo-elements sticking out */
+}
+
+header {
+  text-align: center;
+  height: 40vh;
+  padding-top: 10vh;
+}
+
+section {
+	position: relative;
+	padding: 10em 10%;
+  text-align: center;
+}
+
+section h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 2.8em;
+	font-weight: 400;
+}
+
+section p {
+	color: rgba(0,0,0,.3);
+	font-size: 1.3em;
+	line-height: 1.5;
+}
