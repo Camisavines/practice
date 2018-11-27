@@ -22,6 +22,10 @@ section::after {
 
 /* --------------------------------------------- */
 /* Triangles */
+.triangle {
+	background: #c1442e;
+}
+
 .triangle::before,
 .triangle::after {
 	left: 50%;
@@ -49,7 +53,7 @@ section::after {
 .diagonal {
 	z-index: 1;
 	padding-top: 6em;
-	background: #83a0a6;
+	background: #ab5a45;
 }
 
 .diagonal::before,
@@ -68,7 +72,7 @@ section::after {
 
 .diagonal::before {
 	height: 50%;
-	background: #688084;
+	background: #884837;
 	-webkit-transform: rotate(-3deg);
 	transform: rotate(-3deg);
 	-webkit-transform-origin: 3% 0;
@@ -78,6 +82,10 @@ section::after {
 
 /* --------------------------------------------- */
 /* Half Circle */
+.halfcircle {
+	background: #e57b22;
+}
+
 .halfcircle::before,
 .halfcircle::after {
 	left: 50%;
@@ -102,13 +110,17 @@ section::after {
 
 /* --------------------------------------------- */
 /* Big Triangle */
+.bigtriangle {
+	background: #ab5a45;
+}
+
 svg#bigTriangleColor {
 	pointer-events: none;
 }
 
 #bigTriangleColor path {
-	fill: #aaaaaa;
-	stroke: #aaaaaa;
+	fill: #ab5a45;
+	stroke: #ab5a45;
 	stroke-width: 2;
 }
 
@@ -125,6 +137,10 @@ svg#bigTriangleColor {
 
 /* --------------------------------------------- */
 /* Multiple Triangles */
+.multitriangles {
+	background-color: #ab5a45;
+}
+
 .multitriangles::before,
 .multitriangles::after {
 	left: 50%;
@@ -157,7 +173,7 @@ svg#bigTriangleColor {
 	width: 100%;
 	height: 60px; */
 	border-radius: 0 0 90px 90px;
-	background: inherit;
+	background: #d47433;
 }
 
 
@@ -166,6 +182,7 @@ svg#bigTriangleColor {
 .roundedsplit {
 	padding-top: 7em;
 	border-radius: 0 0 80px 80px;
+	background: #9a5757;
 }
 
 .roundedsplit::before,
@@ -194,6 +211,7 @@ svg#bigTriangleColor {
 .boxes {
 	padding-top: 4em;
 	padding-bottom: 13em;
+	background-color: #c1442e;
 }
 
 .boxes::before {
@@ -202,7 +220,7 @@ svg#bigTriangleColor {
 	width: 100%;
 	height: 50px;
 	background-image: -webkit-gradient(linear, 100% 0, 0 100%, color-stop(0.5, #3498db), color-stop(0.5, #2980b9));
-	background-image: linear-gradient(to right, #aaaaaa 50%, #514d5b 50%);
+	background-image: linear-gradient(to right, #c1442e 50%, #ee9d4a 50%);
 	-webkit-background-size: 130px 100%;
 	background-size: 130px 100%;
 }
@@ -211,6 +229,10 @@ svg#bigTriangleColor {
 
 /* --------------------------------------------- */
 /* Zig Zag (3d up and simple down) */
+.zigzag {
+	background: #ab5a45;
+}
+
 .zigzag::before,
 .zigzag::after {
     right: 0;
@@ -225,8 +247,8 @@ svg#bigTriangleColor {
 	top: -90px;
 	background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, transparent), color-stop(0.25, #3498db));
 	background-image:
-		linear-gradient(315deg, #123456 25%, transparent 25%),
-		linear-gradient( 45deg, #3498db 25%, transparent 25%);
+		linear-gradient(315deg, #884837 25%, transparent 25%),
+		linear-gradient( 45deg, #b36a57 25%, transparent 25%);
 	background-position: 50%;
 }
 
@@ -234,8 +256,8 @@ svg#bigTriangleColor {
 	top: 100%;
 	background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, #3498db), color-stop(0.25, #2980b9));
 	background-image:
-		linear-gradient(135deg, #3498db 25%, transparent 25%),
-		linear-gradient(225deg, #3498db 25%, transparent 25%);
+		linear-gradient(135deg, #b36a57 25%, transparent 25%),
+		linear-gradient(225deg, #884837 25%, transparent 25%);
 	background-position: 50%;
 }
 
@@ -251,7 +273,7 @@ svg#bigTriangleColor {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-	background: #2980b9;
+	background: #e57b22;
 	top: -100px;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -279,7 +301,7 @@ svg#bigTriangleColor {
 	width: -moz-calc(50% + 10px);
 	width: calc(50% + 10px);
 	height: 160px;
-	background: #2980b9;
+	background: #9a5757;
 	top: -160px;
 }
 
@@ -287,41 +309,52 @@ svg#bigTriangleColor {
 	left: -20px;
 	-webkit-transform: skewX(10deg);
 	transform: skewX(10deg);
-	box-shadow: -10px -20px #3192d3;
+	box-shadow: -10px -20px #7b4545;
 }
 
 .slit::after {
 	right: -20px;
 	-webkit-transform: skewX(-10deg);
 	transform: skewX(-10deg);
-	box-shadow: 10px -20px #3192d3;
+	box-shadow: 10px -20px #7b4545;
 }
 
 
 /* --------------------------------------------- */
 /* Big half circle */
 #bigHalfCircle path {
-	fill: blue;
-	stroke: blue;
+	fill: #d47433;
+	stroke: #d47433;
+}
+
+.bigHalfCircle {
+	background: #d47433;
 }
 
 
 /* --------------------------------------------- */
 /* Big triangle with shadow */
+.bigtriangle {
+	background: #c1442e;
+}
 
 #trianglePath1 {
-	fill: #3498db;
-	stroke: #3498db;
+	fill: #c1442e;
+	stroke: #c1442e;
 }
 
 #trianglePath2 {
-	fill: #2072a7;
-	stroke: #2072a7;
+	fill: #b73a24;
+	stroke: #b73a24;
 }
 
 
 /* --------------------------------------------- */
 /* Inclined Zig Zag */
+.inczigzag {
+	background: #e57b22;
+}
+
 .inczigzag::before,
 .inczigzag::after {
 	left: 0;
@@ -333,13 +366,13 @@ svg#bigTriangleColor {
 .inczigzag::before {
 	top: 0;
 	background-image: -webkit-gradient(linear, 0 0, 10% 100%, color-stop(0.5, #2980b9), color-stop(0.5, #3498db));
-	background-image: linear-gradient(15deg, #3498db 50%, #2980b9 50%);
+	background-image: linear-gradient(15deg, #e57b22 50%, #d47433 50%);
 }
 
 .inczigzag::after {
 	bottom: 0;
 	background-image: -webkit-gradient(linear, 0 0, 10% 100%, color-stop(0.5, #3498db), color-stop(0.5, #2980b9));
-	background-image: linear-gradient(15deg, #2980b9 50%, #3498db 50%);
+	background-image: linear-gradient(15deg, #d47433 50%, #e57b22 50%);
 }
 
 
@@ -352,26 +385,30 @@ svg#bigTriangleColor {
 	height: 50px;
 	background-size: 200px 100%;
 	top: 0;
-	background-image: -webkit-linear-gradient(40deg, #3498db 50%, #2980b9 50%);
-	background-image: linear-gradient(40deg, #3498db 50%, #2980b9 50%);
+	background-image: -webkit-linear-gradient(40deg, #c1442e 50%, #9a5757 50%);
+	background-image: linear-gradient(40deg, #c1442e 50%, #9a5757 50%);
 }
 
 
 /* --------------------------------------------- */
 /* Alternative slit with inner shadow */
 #slitPath1 {
-	fill: #3498db;
+	fill: #c1442e;
 	stroke: red;
 	stroke-width: 0;
 }
 
 #slitPath2, #slitPath3 {
-	fill: #2072a7;
+	fill: #9a5757;
 }
 
 
 /* --------------------------------------------- */
 /* Folded corner */
+.foldedcorner {
+	background: #e57b22;
+}
+
 .foldedcorner::before,
 .foldedcorner::after {
 	bottom: 0;
@@ -381,14 +418,14 @@ svg#bigTriangleColor {
 
 .foldedcorner::before {
 	right: 0;
-	background-image: -webkit-linear-gradient(top left, #37a2ea 50%, #3498db 50%);
-	background-image: linear-gradient(315deg, #3498db 50%, #37a2ea 50%);
+	background-image: -webkit-linear-gradient(top left, #ce6e1e 50%, #ea954e 50%);
+	background-image: linear-gradient(315deg, #ea954e 50%, #ce6e1e 50%);
 }
 
 .foldedcorner::after {
 	right: 100px;
-	background-image: -webkit-linear-gradient(top left, transparent 50%, #236fa1 50%);
-	background-image: linear-gradient(315deg, #236fa1 50%, transparent 50%);
+	background-image: -webkit-linear-gradient(top left, transparent 50%, #b7621b 50%);
+	background-image: linear-gradient(315deg, #b7621b 50%, transparent 50%);
 }
 
 

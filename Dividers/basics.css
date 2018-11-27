@@ -7,8 +7,8 @@ h1, h2 {
 }
 
 body {
-	background: #514d5b;
-	color: #fff;
+	background: #ee9d4a;
+	color: #000;
 	font-family: 'Lato', Arial, sans-serif;
 }
 
@@ -19,8 +19,8 @@ body {
 
 header {
   text-align: center;
-  height: 65vh;
-  padding-top: 15vh;
+  height: 75vh;
+  padding-top: 20vh;
   font-size: 2em;
 }
 
