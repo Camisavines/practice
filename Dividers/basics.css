@@ -1,7 +1,9 @@
 /* My basic, personal stlying choices */
 /* ---------------------------------- */
-html {
 
+
+h1, h2 {
+	font-family: 'Black Han Sans', sans-serif;
 }
 
 body {
@@ -17,8 +19,8 @@ body {
 
 header {
   text-align: center;
-  height: 40vh;
-  padding-top: 5vh;
+  height: 65vh;
+  padding-top: 15vh;
   font-size: 2em;
 }
 
