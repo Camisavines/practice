@@ -1,0 +1,60 @@
+body {
+/* font-family: 'Oswald', sans-serif; */
+}
+
+.containers {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.project {
+  height: auto;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+#hovertransition {
+  color: black;
+  background-color: orange;
+  width: 50%;
+  height: 25%;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  border: 10px solid black;
+  transition: 2s;
+}
+
+#hovertransition:hover {
+  color: orange;
+  background-color: black;
+  width: 75%;
+  height: 25%;
+  padding-top: 75px !important;
+  padding-bottom: 75px !important;
+  border: 20px dotted white;
+}
+
+#rainbow {
+  background-color: grey;
+  color: black;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  border-radius: 30px;
+  width: 50%;
+}
+
+pre {
+  color: black;
+}
+
+li {
+  padding-top: 5px;
+}
+
+.collapsible-body {
+  background-color: #eee;
+}
+
+code {
+  color: blue;
+}
