@@ -1,0 +1,17 @@
+1. Write a function to calculate the factorial of an integer
+
+2. Write a Python function to check whether a number is perfect or not. 
+    A perfect number is a positive integer that is equal to the sum of its proper positive factors including itself. Equivalently, a perfect number is a number that is half the sum of all of its positive factors (including itself).
+    For exmple,  ( 1 + 2 + 3 + 6 ) / 2 = 6. Making 6 a perfect number.
+
+3. Build a random password generator
+
+4. Super Hero Name generator based on birthday
+
+5. List comprehensions
+
+6. Write a function that takes an integer and returns that number in roman numeral form
+    -You could do this by hard coding with conditionals
+    -You could do this with a while loop
+
+7. Write a function that takes an integer and returns that number in hexa-decimal form.
